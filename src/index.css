@@ -17,11 +17,11 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 214 88% 27%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 142 76% 36%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
@@ -34,9 +34,20 @@ All colors MUST be HSL.
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 214 88% 27%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+    
+    /* Custom semantic tokens for citizen portal */
+    --government-blue: 214 88% 27%;
+    --government-green: 142 76% 36%;
+    --trust-gradient: linear-gradient(135deg, hsl(214 88% 27%), hsl(142 76% 36%));
+    --service-card: 0 0% 99%;
+    --service-border: 220 13% 91%;
+    --hero-bg: linear-gradient(135deg, hsl(214 88% 27% / 0.05), hsl(142 76% 36% / 0.05));
+    --shadow-soft: 0 2px 10px hsl(214 88% 27% / 0.1);
+    --shadow-card: 0 1px 3px hsl(0 0% 0% / 0.12), 0 1px 2px hsl(0 0% 0% / 0.24);
+    --transition-smooth: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
